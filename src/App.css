@@ -7,15 +7,21 @@
 .App {
   text-align: center;
 }
+.navContainer{
+  display: flex;
+  justify-content: space-evenly;
+}
 div a {
   text-decoration: none;
   color: white;
+
 }
 div a:hover{
   color: white;
   text-decoration: none;
-  text-shadow: 2px 2px darkred;
+  text-shadow: 5px 3px darkred;
 }
+
 
 .Nav-link {
   padding: 2rem;
